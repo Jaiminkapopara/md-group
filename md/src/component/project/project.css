@@ -1,0 +1,23 @@
+.project{
+    display: flex;
+    padding-top: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    
+    flex-wrap: wrap;
+    align-items: center;justify-content: center;
+    user-select: none;
+}
+
+
+
+@media screen and (max-width:600px){
+    .cards{
+        flex-direction: column;
+    }
+}

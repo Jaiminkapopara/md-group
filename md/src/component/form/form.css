@@ -1,0 +1,95 @@
+.for{
+    display: flex;align-items: center;justify-content: center;
+}
+
+.form{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    margin-bottom: 200px;
+    margin-top: -100px;
+border-radius: 15px;
+    
+    background: var(--title);
+     
+ }
+ 
+ .form h2{
+     position: relative;
+     color: #fff;
+     font-size: 2rem;
+     font-weight: 600;
+     letter-spacing: 1px;
+     margin-bottom: 40px;
+ }
+ 
+ .form h2::before{
+     content: '';
+     position: absolute;
+     left: 0;
+     bottom: -10px;
+     height: 4px;
+     width: 80px;
+     background: #fff;
+ }
+ 
+ .form .inputBox{
+     width: 100%;
+     margin-top: 20px;
+ 
+ 
+ }
+ 
+ .form .inputBox input{
+     width: 100%;
+     padding: auto;
+     background: rgba(255,255,255,.2);
+     border: none;
+     outline: none;
+     padding: 10px 20px;
+     border-radius: 35px;
+ font-size: 16px;
+ letter-spacing: 1px;
+ color: #fff;
+     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+     border: 1px solid rgba(255, 255, 255, .5);
+     border-right: 1px solid rgba(255, 255, 255, .2);
+     border-bottom: 1px solid rgba(255, 255, 255, .2);
+ }
+ 
+ .form .inputBox input::placeholder{
+     color: rgb(222, 222, 222) !important;
+ }
+ 
+ .form .inputBox input[type="submit"]{
+     background: #fff;
+     color: #666;
+     font-weight: 600;
+     max-width: 100px;
+     cursor: pointer;
+     margin-bottom: 20px;
+     
+ 
+ }
+
+ .form .inputBox input[type="submit"]:hover{
+    background: rgb(243, 241, 241);
+ }
+ 
+ .form .inputBox input[type="text"]{
+     width: 85%;
+ }
+ 
+ .form .inputBox input[type="email"]{
+     width: 85%;
+ }
+ 
+
+
+ @media screen and (max-width:500px){
+   .form{
+    width: 70vw;
+   } 
+ }
+ 

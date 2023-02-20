@@ -1,0 +1,46 @@
+.projects{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pimg{
+    width: 80vw;
+    height: 65vh;
+    margin: 50px auto;
+    
+}
+
+.pimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.mimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;   
+    margin-bottom: 150px;
+}
+
+.pinfo{
+    margin-bottom: 200px;
+    padding: 0 40px;
+}
+
+.pinfo>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgsvg{
+    position: absolute;
+    bottom: -360px;
+    opacity: .2;
+}

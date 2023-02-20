@@ -1,0 +1,12 @@
+:root{
+    --title: #8C6239;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    user-select: none;
+
+}
+
